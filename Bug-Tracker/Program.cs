@@ -1,3 +1,4 @@
+using Bug_Tracker;
 using DataAccess.Data;
 using DataAccess.DbAccess;
 
@@ -21,5 +22,6 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.ConfigureApi();
 
 app.Run();
